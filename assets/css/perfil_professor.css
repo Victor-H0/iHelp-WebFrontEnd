@@ -1,0 +1,147 @@
+body{
+    font-family: 'Open Sans',Arial,sans-serif;
+    background-image: linear-gradient(to right,  #ebf4f5,#4766f4);
+}
+.nav_principal {
+	width: 94%;
+	margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+}
+
+.cabecalhoPrincipal{
+    background-color: #5D5FEF;
+    padding: 20px 0;
+}
+
+.cabecalhoPrincipal-logo{
+    max-height:100px;
+}
+
+.cabecalhoPrincipal-logo img{
+    width:50px;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+.cabecalhoPrincipal-nav-link {
+    padding:20px;
+	color: #FFF;
+	text-decoration: none;
+    font-size: 15px;
+}
+.cabecalhoPrincipal-nav-link:first-child{
+    border-bottom: 1px solid #FFF;  
+}
+
+.cabecalhoPrincipal-nav-link:last-child{
+    padding: 10px 25px;
+    background-image: linear-gradient(to right,  #4CE059,#20A046); 
+    border-radius: 25px;
+}
+
+.container{
+    display: flex;
+    height:150vh ;  
+}
+
+.dashboard-home{
+    width: 100%;
+    display: flex;
+    height:70vh;
+}
+
+.perfil-esquerda{
+    width: 40%;
+    border:none;
+    border-radius: 2rem;
+    background: #E5DBE5;
+    margin-top:6%;
+    margin-left:10%;
+    margin-right:10%;
+   
+   
+}
+.perfil-esquerda img{
+    padding: 5% 30%;
+    width:35%;
+    
+
+}
+.nome-perfil{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 1.3rem;
+
+}
+.especificacao-perfil{
+    padding-bottom: 2%;
+    text-align: center;
+    color:#393539;
+}
+.star{
+    padding-left:40%;
+    margin-top:-15%;
+    width:30%;
+}
+.perfil-direita{
+    width:50%;
+    height:30vh;
+    border:none;
+    border-radius: 2rem;
+    background: #E5DBE5;
+    margin-top: 6%;
+    padding: 3% 3%;
+    margin-right: 5%;
+     
+}
+.header-aulas{
+    font-size:1.5rem ;
+    text-align:left;
+    margin-bottom:8%;
+    text-decoration-line:underline;
+    
+}
+.sessao-nao-pedidos{
+    display: flex;
+    height: 35%;
+    width: 100%;
+ 
+}
+
+.sessao-nao-pedidos img{
+    width:10%;
+}
+
+.texto-anuncio{
+    padding-left: 3%;
+    padding-top:5%;
+}
+.sessao-nao-pedidos a{
+	color: #FFF;
+	text-decoration: none;
+    background-image: linear-gradient(to right,  #4CE059,#20A046);
+    border-radius: 25px;
+    font-size: 0.9rem;
+    padding-top:2%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-left:4%;
+    margin-top:3%;
+    margin-bottom:3%;
+
+   
+  
+}
+
+

@@ -1,0 +1,191 @@
+
+body {
+    background-color: #F0ECEC;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal{
+    background-color: #5D5FEF;
+    padding: 20px 0;
+}
+
+.cabecalhoPrincipal-logo{
+    max-height:100px;
+}
+
+.cabecalhoPrincipal-logo img{
+    width:50px;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+.cabecalhoPrincipal-nav-link {
+    margin:20px;
+	color: #FFFF;
+	text-decoration: none;
+    font-weight: lighter;
+   
+}
+
+.cabecalhoPrincipal-nav-link:last-child{
+    padding: 10px 10px;
+    background-color: #20A046;
+    border-radius: 25px;
+    margin-right: 0;
+}
+
+.busca-aulas{
+    padding-left: 5%;
+    margin: 3% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo1{
+    font-size: 400%;
+    margin: 5% 0;
+}
+
+.texto1{
+    font-size: 150%;
+    margin: 5% 0;
+}
+
+.caixa-pesquisa{
+    display: flex;
+    align-items: center;
+    border:solid 2px #20A046;
+    border-radius:20px;
+    width:90%;
+    height:50px;
+    margin: 5% 0;
+}
+
+.txt-busca{
+    float:left;
+    background-color:transparent;
+    padding-left:15px;
+    font-size:16px;
+    border:none;
+    width: 70%;
+    height:50px;
+}
+
+.button-busca{
+    border:none;
+    float:right;
+    height:40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    width:30%;
+    font-size: 100%;
+    font-weight:bold;
+    color: #FFF;
+    background:#20A046;
+}
+
+.caixa-pesquisa img{
+    height: 60%;
+    padding-left: 10px;
+}
+
+.imagem1{
+    width: 70%;
+}
+
+.seja-prof{
+    padding-right: 3%;
+    margin: 10% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.imagem2{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 30%;
+}
+
+.titulo2{
+    font-size: 400%;
+    margin-bottom: 5%;
+}
+
+.texto2{
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+
+
+.button-prof{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+    color: #FFF;
+    padding: 2% 5%;
+    background-color: #20A046;
+    border-radius: 40px;
+    margin-bottom: 5%;
+}
+
+.imagem3{
+    width: 22%;
+}
+
+.secaofinal{
+    display: flex;
+    padding: 0 3%;
+}
+
+footer{
+    background-color: #5D5FEF;
+}
+
+.logo-footer{
+    width: 20%
+}
+
+.logo-footer img {
+    padding-top: 9%;
+    width: 25%;
+}
+
+.redes-socais{
+    width: 40%;
+    padding-top: 2%;
+    color:#FFF;
+    font-size: 130%;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.img-redes-sociais{
+    padding: 4% 2%;
+    width: 7%;
+}
+
+.copyright{
+    text-align: center;
+    color: #FFF;
+    border-top: 1px solid #FFF;
+    padding: 1% 1%;
+}
