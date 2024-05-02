@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iHelp - Login</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/acesso.css">
 </head>
 <body>
+    <div class="login__wrapper">
+    <div class="login-image__wrapper">
+        <img src="assets/img/login-image.png" alt="" class="login-image">
+    </div>
     <div class="main-login">
-        <img src="assets/img/logo_iHelp.png" alt="logo-ihelp">
         <h1>Conecte-se</h1>
         <form action="test_login.php" method="POST">
-            <input type="text" name= "email" id= "email"  placeholder="E-mail"> 
+            <label for="email">E-mail</label>
+            <input type="text" name= "email" id= "email"  placeholder="Insira seu e-mail"> 
             <br><br>
-            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Insira sua senha">
             <br><br>
-            <input type="submit" name="submit" value="Entrar" class="button-main">
+            <a href="index.html" class="button-main">Entrar</a>
             <p>Ainda não possui cadastro?</p>
-            <a href="sejaumprofessor.php" class="button-main-2">Inscreva-se</a>
+            <a href="sejaumprofessor.html" class="button-main">Inscreva-se</a>
         </form>
     </div>
+</div>
 </body>
 
 </html>
