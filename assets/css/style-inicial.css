@@ -30,12 +30,14 @@ body {
 
 .cabecalhoPrincipal-nav{
     display: flex;
+ 
 }
 
 .cabecalhoPrincipal-nav-link {
     margin:20px;
 	color: #FFFF;
 	text-decoration: none;
+    font-size: 22px;
     font-weight: lighter;
    
 }
