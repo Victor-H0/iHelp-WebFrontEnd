@@ -16,27 +16,24 @@ body {
 }
 
 .container {
-    width: 90%;
-    height: 80vh;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
 .form-image {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: center;
-    background-color: #F0ECEC;
-    padding: 1rem;
+    background-color: #5D5FEF;
+    height: 100vh;
 
 }
 
 .form-image img {
-    width: 31rem;
+    width: 100%;
 }
 
 .form {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +49,7 @@ body {
 }
 .title{
     font-size: 35px;
-    color: #84A5BE;
+    color: #5D5FEF;
 }
 
 .login-button {
@@ -60,31 +57,30 @@ body {
     align-items: center;
 }
 
-.login-button button {
+.login-button a {
     border: none;
-    background-color: #84A5BE;
-    padding: 12px 60px;
+    background-color: #5D5FEF;
+    padding: 12px 70px;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.login-button button:hover {
-    background-color: #A6CAE7;
-}
-
-.login-button button a {
     text-decoration: none;
     font-weight: bold;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
 }
+
+.login-button a:hover {
+   opacity: 0.85;
+   padding: 15px 80px;
+}
+
 
 .form-header h1::after {
     content: '';
     display: block;
     width: 13rem;
     height: 0.3rem;
-    background-color: #84A5BE;
+    background-color: #5D5FEF;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
@@ -106,7 +102,7 @@ body {
 .input-box input {
     margin-bottom: 20px;
     padding: 20px 70px;
-    border: 1px solid #84A5BE;
+    border: 1px solid #5D5FEF;
     border-radius: 10px;
     box-shadow: 1px 2px 8px #0000001c;
     font-size: 0.8rem;
@@ -121,13 +117,13 @@ body {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #A6CAE7;
+    outline: 1px solid #5D5FEF;
 }
 
 .input-box label {
     font-size: 18px;
     font-weight: 600;
-    color: #84A5BE;
+    color: #5D5FEF;
     text-align: center;
 }
 
@@ -138,20 +134,23 @@ body {
 }
 
 
-input[type=submit]{
+.btn-submit{
+    display: block;
     width: 100%;
     margin-top: 10px;
-    border: none;
-    background-color: #84A5BE;
+    background-color: #5D5FEF;
     padding: 18px;
     border-radius: 5px;
     cursor: pointer;
     color: #fff;
     font-weight: bold;
-    font-size: 22px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
 
     &:hover{
-        background-color:#A6CAE7;
+        opacity: 0.85;
+        padding: 22px;
     }
 }
 

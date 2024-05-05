@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,32 @@
     <title>iHelp - Login</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/acesso.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div class="login__wrapper">
-    <div class="login-image__wrapper">
-        <img src="assets/img/login-image.png" alt="" class="login-image">
-    </div>
-    <div class="main-login">
-        <h1>Conecte-se</h1>
-        <form action="test_login.php" method="POST">
-            <label for="email">E-mail</label>
-            <input type="text" name= "email" id= "email"  placeholder="Insira seu e-mail"> 
-            <br><br>
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="Insira sua senha">
-            <br><br>
-            <a href="index.html" class="button-main">Entrar</a>
-            <p>Ainda não possui cadastro?</p>
-            <a href="sejaumprofessor.html" class="button-main">Inscreva-se</a>
-        </form>
-    </div>
-</div>
+    <main>
+        <div class="main-login">
+            <h1>Conecte-se</h1>
+            <form action="test_login.php" method="POST" class="form-login">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="Insira seu e-mail" required>
+                <br><br>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Insira sua senha" required>
+                <br><br>
+                <a href="indexLogado.html" class="button-main">Entrar</a>
+                <p>Ainda não possui cadastro?</p>
+                <a href="sejaumprofessor.html" class="button-main">Inscreva-se como professor</a>
+                <a href="sejaumaluno.html" class="button-main">Inscreva-se como aluno</a>
+            </form>
+
+        </div>
+    </main>
 </body>
 
 </html>
