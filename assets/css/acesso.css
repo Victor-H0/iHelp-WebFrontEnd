@@ -1,31 +1,34 @@
 body{
    background-color:#F0ECEC;
-    font-family: 'Open Sans',Arial,sans-serif;
+   font-family: "Roboto", sans-serif;
 }
 
-.login__wrapper{
+.main-login{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-right: 80px;
-}
-.login-image{
-    width: 110%;
-}
-.main-login{
-    width: 40%;
+    background-image: url(../img/forma.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 h1{
-    color:  #5D5FEF;
+    color:  #8FC1CE;
     text-align: center;
     font-size: 50px;
     margin-bottom: 55px;
 }
 
+.form-login{
+    width: 40%;
+    margin-left: 60px;
+}
+
 label{
-    color:  #5D5FEF;
-    font-size: 22px;
-    font-weight: bold;
+    color:  #8FC1CE;
+    font-size: 27px;
+    font-weight: 900;
     margin-left: 15px;
 }
 input{
@@ -34,26 +37,26 @@ input{
     outline: none;
     padding: 22px;
     border-radius: 15px;
-    border: 1px solid  #5D5FEF;;
+    border: 1px solid  #8FC1CE;
     margin-bottom: 20px;
 }
 
 p{
     margin-top: 90px;
     margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 22px;
+    font-weight:900;
+    font-size: 27px;
     text-align: center;
-    color: #5D5FEF;
+    color: #8FC1CE;
 }
 
 .button-main{
     display: block;
-    font-weight: bold;
+    font-weight: 900;
     border-radius: 15px;
     padding: 22px;
-    font-size: 22px;
-    background-color: #5D5FEF;
+    font-size: 27px;
+    background-color: #8FC1CE;
     color: #fff;
     width: 90%;
     cursor: pointer;
@@ -61,7 +64,7 @@ p{
     text-align: center;
 
     &:hover{
-        opacity: 0.65;
+        opacity: 0.85;
         padding: 25px;
     }
 }

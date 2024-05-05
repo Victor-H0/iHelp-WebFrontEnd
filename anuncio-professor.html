@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/anuncio_professores.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/cadastro-aula.png" alt="imagem cadastro">
+        </div>
+        
+        <div class="form">
+            <form method="POST" action="submit">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre sua aula</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="adicionar_materia">Adicionar matéria</label>
+                        <input id="adicionar_materia" type="text" name="adicionar_materia" placeholder="Digite a matéria" required>                    </div>
+
+                    <div class="input-box">
+                        <label for="titulo_anuncio">Título do anúncio</label>
+                        <input id="titulo_anuncio" type="text" name="titulo_anuncio" placeholder="Digite o título do seu anuncio" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="sobre_aula">Sobre a aula</label>
+                        <input id="sobre_aula" type="text" name="sobre_aula" placeholder="Digite sobre a aula" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="tipo_aula">Tipo de aula</label>
+                        <input id="tipo_aula" type="text" name="tipo_aula" placeholder=" Digite online e/ou presencial" required>
+                    </div>
+
+                   
+                    <div class="input-box">
+                        <label for="lugar">Local</label>
+                        <input id="lugar" type="text" name="lugar" placeholder="Digite Estado-Cidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="tarifa_horaria">Tarifa Horária</label>
+                        <input id="tarifa_horaria" type="text" name="tarifa_horaria" placeholder="Digite o valor de R$/h" required>
+                    </div>   
+
+                </div>
+
+               <a href="professores.html" class="btn-submit">Cadastrar</a>
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
