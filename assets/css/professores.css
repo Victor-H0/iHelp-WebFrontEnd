@@ -29,29 +29,30 @@ body {
 
 .cabecalhoPrincipal-nav{
     display: flex;
+    justify-content: space-around;
 }
 
 .cabecalhoPrincipal-nav-link {
-    padding:20px;
+    margin:20px;
 	color: #FFF;
 	text-decoration: none;
     font-size: 22px;
 }
 
-.cabecalhoPrincipal-nav-link:nth-child(3){
-    padding: 3px 0;
-    border-bottom: 1px solid #FFF;  
+.cabecalhoPrincipal-nav-link:nth-child(1){
+    margin: 3px 0; 
 }
 
 .cabecalhoPrincipal-nav-link:nth-child(2){
-    padding-right: 50px;
+    margin-left: 50px;
 }
 
-.cabecalhoPrincipal-nav-link:nth-child(4){
-    padding-left: 50px;
+.cabecalhoPrincipal-nav-link:nth-child(3){
+    border-bottom: 1px solid #FFF;
 }
+
 .cabecalhoPrincipal-nav-link:nth-child(5){
-    padding-right: 50px;
+    margin-right: 50px; 
 }
 
 .cabecalhoPrincipal-nav-link:last-child{
@@ -114,29 +115,29 @@ body {
 .atributos-docente{
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 18px;
-    line-height: 1.3;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .nota{
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     margin-top: 0;
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .avaliação{
-    width: 21px;
+    width: 28px;
 }
 
 .notinha{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.3;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .button-docente{    

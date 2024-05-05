@@ -32,25 +32,26 @@ body {
 
 .cabecalhoPrincipal-nav{
     display: flex;
+    justify-content: space-around;
 }
 
 .cabecalhoPrincipal-nav-link {
-    padding:20px;
+    margin:20px;
 	color: #FFF;
 	text-decoration: none;
     font-size: 22px;
 }
 
 .cabecalhoPrincipal-nav-link:nth-child(1){
-    padding: 3px 0;
-    border-bottom: 1px solid #FFF;  
+    margin: 3px 0; 
+    border-bottom: 1px solid #FFF;
 }
 
 .cabecalhoPrincipal-nav-link:nth-child(2){
-    padding-left: 50px;
+    margin-left: 50px;
 }
 .cabecalhoPrincipal-nav-link:nth-child(5){
-    padding-right: 50px;
+    margin-right: 50px; 
 }
 
 .cabecalhoPrincipal-nav-link:last-child{
