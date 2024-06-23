@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>iHelp</title>
-        <link rel="stylesheet" href="assets/css/reset.css">
+        <title>iHelp - Admin</title>
+        <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
         <link rel="stylesheet" href="assets/css/style-home.css">
-
         <link rel="stylesheet" href="assets/css/style-admin.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +16,7 @@
             rel="stylesheet">
     </head>
 
-<body>
+<body id="corpo">
 
     <header class="cabecalhoPrincipal">
         <div class="container">
@@ -40,24 +37,24 @@
     <main>
 
         <div class="container-admin">
-            <h1 class="title">Cadastro de Usuários</h1>
-            <form id="userForm" class="form-admin">
-                <label for="username">Nome do Usuário:</label>
-                <input type="text" id="username" name="username" required class="input-admin" placeholder="Digite um nome">
+            <h1 class="titulo">Cadastro de Usuários</h1>
+            <form id="usuarioForm" class="form-admin">
+                <label for="nomeUsuario">Nome do Usuário:</label>
+                <input type="text" id="nomeUsuario" name="nomeUsuario" required class="entrada-admin" placeholder="Digite um nome">
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required class="input-admin" placeholder="Digite um e-mail">
+                <input type="email" id="email" name="email" required class="entrada-admin" placeholder="Digite um e-mail">
                 <button type="submit" class="btn-admin">Cadastrar</button>
-                <button type="button" id="clearFields" class="btn-admin">Limpar Campos</button>
+                <button type="button" id="limparCampos" class="btn-admin">Limpar Campos</button>
             </form>
-            <h2 class="list">Lista de Usuários</h2>
-            <input type="text" id="search" placeholder="Pesquisar um usuario" class="input-search">
-            <button type="button" id="clearAll" class="btn-admin">Excluir Todos</button>
-            <ul id="userList" class="usuario"></ul>
+            <h2 class="lista titulo">Lista de Usuários</h2>
+            <input type="text" id="busca" placeholder="Pesquisar um usuario" class="entrada-busca">
+            <button type="button" id="limparTodos" class="btn-admin">Excluir Todos</button>
+            <ul id="ListaUsuario" class="usuario"></ul>
            
         </div>
     </main>
     <script src="/assets/js/admin.js"></script>
-    <body>
+</body>
 
 
 </html>

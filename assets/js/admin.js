@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const userForm = document.getElementById('userForm');
-    const userList = document.getElementById('userList');
-    const clearFieldsButton = document.getElementById('clearFields');
-    const clearAllButton = document.getElementById('clearAll');
-    const searchInput = document.getElementById('search');
+    const userForm = document.getElementById('usuarioForm');
+    const userList = document.getElementById('ListaUsuario');
+    const clearFieldsButton = document.getElementById('limparCampos');
+    const clearAllButton = document.getElementById('limparTodos');
+    const searchInput = document.getElementById('busca');
 
     function loadUsers() {
         userList.innerHTML = '';
@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function addUserToList(user) {
         const li = document.createElement('li');
-        li.textContent = `${user.date} - ${user.username} - ${user.email}`;
+        li.textContent = `${user.date} - ${user.nomeUsuario} - ${user.email}`;
+        li.classList.add('itemLista');
         const deleteButton = document.createElement('button');
         deleteButton.textContent = 'Excluir';
         deleteButton.classList.add('btn-delete');
@@ -44,10 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     userForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const username = document.getElementById('username').value;
+        const nomeUsuario = document.getElementById('nomeUsuario').value;
         const email = document.getElementById('email').value;
         const date = new Date().toLocaleString();
-        const user = { date, username, email };
+        const user = { date, nomeUsuario, email };
         addUserToList(user);
         saveUser(user);
         userForm.reset();
@@ -63,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchTerm = searchInput.value.toLowerCase();
         const users = JSON.parse(localStorage.getItem('users')) || [];
         const filteredUsers = users.filter(user => 
-            user.username.toLowerCase().includes(searchTerm) ||
+            user.nomeUsuario.toLowerCase().includes(searchTerm) ||
             user.email.toLowerCase().includes(searchTerm)
         );
         userList.innerHTML = ''; 
